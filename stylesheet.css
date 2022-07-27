@@ -1,0 +1,62 @@
+/* CSS untuk style secara umum (layar FullHD XL)  */
+/* Minimal CSS Reset */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* CSS untuk Dipakai Halaman Umum */
+body {
+  font-family: "Karla", sans-serif;
+}
+
+.container {
+  max-width: 1320px;
+  padding: 0 12px;
+  margin: 0 auto;
+}
+
+/* CSS untuk Header */
+
+/* CSS untuk Top Wrapper */
+
+/* CSS untuk About Wrapper */
+
+/* CSS untuk Services Wrapper */
+
+/* CSS untuk Pricing Wrapper */
+
+/* CSS untuk Contact Wrapper */
+
+/* CSS untuk Footer */

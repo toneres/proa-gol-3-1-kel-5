@@ -1,0 +1,46 @@
+/* CSS untuk style layar responsive */
+
+/* 
+BREAKPOINT:
+XS, untuk ukuran layar smartphone dan handphone kecil <= 576px
+S, untuk ukuran layar tablet kecil dan smartphone <= 768px
+M, untuk ukuran layar tablet <= 992px
+L, untuk ukuran layar tablet besar, monitor kecil, atau laptop kecil <= 1200px
+XL, untuk ukuran layar monitor HD <= 1400px
+XXL, untuk ukuran layar monitor FullHD >1400px (default)
+*/
+
+/*Media query untuk layar XL dan lebih kecil*/
+@media (max-width: 1400px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+/*Media query untuk layar L dan lebih kecil*/
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+/*Media query untuk layar M dan lebih kecil*/
+@media (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+/*Media query untuk layar S dan lebih kecil*/
+@media (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+/*Media query untuk layar XS*/
+@media (max-width: 576px) {
+  .container {
+    max-width: 100%;
+  }
+}
