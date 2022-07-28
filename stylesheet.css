@@ -77,6 +77,10 @@ body {
   margin: 0 8px;
   height:565px;
 }
+.pricing-plan:hover{
+  border: 2px solid gray;
+  box-shadow: 0 0 0 0 26em blue;
+}
 .plan-inherit{
   width: 90%;
   margin: 0 20px;
@@ -127,12 +131,13 @@ body {
   text-transform: uppercase;
   font-weight: 500;
   transition: .3s linear;
+  text-decoration: none;
 }
 .btn-order:hover{
   background-color: blueviolet;
   color: aliceblue;
 }
-.label{
+.label1{
   width: 100%;
   text-align: center;
   background-color: blueviolet;
@@ -140,9 +145,27 @@ body {
   height: 50px;
   border-radius: 0px 0px 10px 10px;
 }
+.label2{
+  width: 100%;
+  text-align: center;
+  background-color: rgb(25, 176, 35);
+  color: aliceblue;
+  height: 50px;
+  border-radius: 0px 0px 10px 10px;
+}
+.label3{
+  width: 100%;
+  text-align: center;
+  background-color: rgb(237, 215, 16);
+  color: aliceblue;
+  height: 50px;
+  border-radius: 0px 0px 10px 10px;
+  
+}
 .label p{
   display: inline-block;
 }
+
 .txt-top{
   padding: 10px;
   font-size: 20px;
