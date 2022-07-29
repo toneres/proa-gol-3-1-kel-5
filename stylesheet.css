@@ -73,74 +73,74 @@ hr {
   font-weight: bold;
 }
 
-.contact_section{
+.contact-section {
   display: flex;
   align-items: center;
   flex-direction: column;
   margin-top: 2rem;
 }
 
-.input_wrapper{
+.input-wrapper {
   width: 39rem;
   display: flex;
   flex-direction: column;
   margin-top: 1rem;
 }
 
-.personal_input{
+.personal-input {
   display: flex;
   flex-direction: row;
 }
 
-.nameinput_wrapper{
+.nameinput-wrapper {
   display: flex;
   flex-direction: column;
 }
 
-.name_input{
+.name-input {
   margin-top: 0.4rem;
   width: 12rem;
   height: 1.9rem;
 }
 
-.emailinput_wrapper{
-  display: flex;
-  flex-direction: column;
-  margin-left: 1rem;
-}
-
-.email_input{
-  margin-top: 0.4rem;
-  width: 12rem;
-  height: 1.9rem;
-}
-
-.about_wrapper{
+.emailinput-wrapper {
   display: flex;
   flex-direction: column;
   margin-left: 1rem;
 }
 
-.about_select{
+.email-input {
   margin-top: 0.4rem;
   width: 12rem;
   height: 1.9rem;
 }
 
-.project_input{
+.about-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+
+.about-select {
+  margin-top: 0.4rem;
+  width: 12rem;
+  height: 1.9rem;
+}
+
+.project-input {
   margin-top: 1rem;
   display: flex;
   flex-direction: column;
 }
 
-.project_textarea{
+.project-textarea {
   margin-top: 0.4rem;
-  height: 8rem;   
+  height: 8rem;
 }
 
-.btn-submit{
+.btn-submit {
   margin-top: 0.7rem;
-  background-color: #3FAF84;
+  background-color: #3faf84;
   border: none;
   color: white;
   padding: 12px 32px;
@@ -148,7 +148,7 @@ hr {
 }
 
 /* CSS untuk Footer */
-.footer_section{
+.footer-section {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -156,19 +156,20 @@ hr {
   margin-top: 5rem;
 }
 
-.footer_wrapper{
+.footer-wrapper {
   display: flex;
   flex-direction: column;
   width: 55rem;
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
-.top_wrapper{
+.footer-section .top-wrapper {
   display: flex;
   flex-direction: row;
 }
 
-.bottom_wrapper{
+.bottom-wrapper {
   display: flex;
   flex-direction: row;
 }
@@ -178,18 +179,18 @@ hr {
   float: left;
 }
 
-.newslatter_content {
+.newslatter-content {
   display: flex;
   flex-direction: column;
 }
 
-.subscribe_content {
+.subscribe-content {
   display: flex;
   flex-direction: row;
   float: left;
 }
 
-.input_subscribe {
+.input-subscribe {
   font-family: inherit;
   border: 0;
   border-bottom: 1px solid white;
@@ -200,88 +201,74 @@ hr {
   transition: border-color 0.2s;
 }
 
-.btn_subscribe {
+.btn-subscribe {
   font-family: inherit;
   border: 0;
-  margin-left: .5rem;
-  padding: .5rem .8rem;
+  margin-left: 0.5rem;
+  padding: 0.5rem 0.8rem;
   width: 7rem;
   font-weight: bold;
 }
 
-.services{
+.services {
   display: flex;
   margin: 0 5rem 0 7rem;
   flex-direction: column;
   float: right;
 }
 
-.text_services{
+.text-services {
   color: white;
   margin-top: 0.2rem;
   font-weight: 200;
 }
 
-.sayhi{
+.sayhi {
   display: flex;
   margin-left: 7rem;
   flex-direction: column;
 }
 
-.text_sayhi_address {
+.text-sayhi-address {
   color: white;
   margin-top: 0.2rem;
   font-weight: 200;
 }
 
-.text_sayhi_email {
+.text-sayhi-email {
   color: white;
   margin-top: 0.2rem;
   font-weight: 100;
-  font-size: .7rem;
+  font-size: 0.7rem;
 }
 
-.copyright{
+.copyright {
   display: inline;
   width: 12rem;
 }
 
-.text_copyright {
+.text-copyright {
   width: 18rem;
   color: white;
 }
 
-.social_media{
+.social-media {
   display: flex;
   margin-left: 32rem;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-instagram,
+.fa-linkedin,
+.fa-youtube {
+  color: white;
+  background: #07262e;
+  margin-left: 0.5rem;
+  text-decoration: none;
 }
 
 .fa-facebook {
-  color: white;
-  background: #07262e;
-}
-
-.fa-twitter {
-  color: white;
-  background: #07262e;
-  margin-left: .5rem;
-}
-
-.fa-instagram{
-  color: white;
-  background: #07262e;
-  margin-left: .5rem;
-}
-
-.fa-linkedin{
-  color: white;
-  background: #07262e;
-  margin-left: .5rem;
-}
-
-.fa-youtube{
-  color: white;
-  background: #07262e;
-  margin-left: .5rem;
+  margin-left: 0;
 }
