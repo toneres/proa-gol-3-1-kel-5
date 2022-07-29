@@ -28,7 +28,7 @@ ul {
 
 ol,
 ul {
- 
+  list-style: none;
 }
 
 img {
@@ -56,56 +56,52 @@ body {
 /* CSS untuk Services Wrapper */
 
 /* CSS untuk Pricing Wrapper */
-.pricing-wrapper{
+.pricing-wrapper {
   background-image: url(pricing.png);
   background-size: cover;
   height: 800px;
 }
-.heading{
+.heading {
   text-align: center;
   padding-top: 80px;
   padding-bottom: 50px;
   color: white;
-  text-decoration:dotted;
-  
+  text-decoration: dotted;
 }
-.pricing-plan{
-  float:left;
+.pricing-plan {
+  float: left;
   width: 32%;
-  
+
   background-color: white;
   margin: 0 8px;
-  height:565px;
+  height: 565px;
 }
-.pricing-plan:hover{
+.pricing-plan:hover {
   border: 2px solid gray;
   box-shadow: 0 0 0 0 26em blue;
 }
-.plan-inherit{
+.plan-inherit {
   width: 90%;
   margin: 0 20px;
   height: 530px;
 }
-.pricing-header{
-  
+.pricing-header {
   font-size: 25px;
-  height:100px;
-  border-bottom:1px solid #a2a9ad;
+  height: 100px;
+  border-bottom: 1px solid #a2a9ad;
 }
 
-.price-desc{
+.price-desc {
   padding: 30px 10px 10px 10px;
-  float:left;
-  width:60%;
-  
+  float: left;
+  width: 60%;
 }
-.price-amount{
+.price-amount {
   padding: 30px 10px 10px 10px;
-  float:right;
-  width:40%;
+  float: right;
+  width: 40%;
 
   text-align: right;
-
 }
 .inner-txt {
   margin-left: 50px;
@@ -113,31 +109,31 @@ body {
   padding-left: 20px;
   padding-bottom: 10px;
 }
-.inner-txt li{
+.inner-txt li {
   padding-left: 10px;
 }
-.inner-txt-1{
+.inner-txt-1 {
   padding-left: 70px;
 }
-.btn-order{
+.btn-order {
   display: inline-block;
   margin-bottom: 40px;
   margin-top: 40px;
-  margin-left:100px;
+  margin-left: 100px;
   border: 2px solid blueviolet;
   color: blueviolet;
   padding: 18px 40px;
   border-radius: 8px;
   text-transform: uppercase;
   font-weight: 500;
-  transition: .3s linear;
+  transition: 0.3s linear;
   text-decoration: none;
 }
-.btn-order:hover{
+.btn-order:hover {
   background-color: blueviolet;
   color: aliceblue;
 }
-.label1{
+.label1 {
   width: 100%;
   text-align: center;
   background-color: blueviolet;
@@ -145,7 +141,7 @@ body {
   height: 50px;
   border-radius: 0px 0px 10px 10px;
 }
-.label2{
+.label2 {
   width: 100%;
   text-align: center;
   background-color: rgb(25, 176, 35);
@@ -153,28 +149,30 @@ body {
   height: 50px;
   border-radius: 0px 0px 10px 10px;
 }
-.label3{
+.label3 {
   width: 100%;
   text-align: center;
   background-color: rgb(237, 215, 16);
   color: aliceblue;
   height: 50px;
   border-radius: 0px 0px 10px 10px;
-  
 }
-.label p{
+.label p {
   display: inline-block;
 }
 
-.txt-top{
+.txt-top {
   padding: 10px;
   font-size: 20px;
 }
-.desc{
+.desc {
   margin-left: 90px;
-  list-style: square;
   font-size: 24px;
   color: dimgray;
+}
+
+.desc li {
+  list-style: square;
 }
 
 .fa {
