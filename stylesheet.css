@@ -52,6 +52,10 @@ body {
 /* CSS untuk Top Wrapper */
 
 /* CSS untuk About Wrapper */
+.about-wrapper {
+  padding: 60px;
+}
+
 .about-row {
   display: flex;
   flex-wrap: wrap;
