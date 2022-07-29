@@ -127,5 +127,217 @@ body {
 /* CSS untuk Pricing Wrapper */
 
 /* CSS untuk Contact Wrapper */
+hr {
+  width: 55rem;
+  margin-top: 5rem;
+}
+
+/* h3 {
+  color: white;
+  font-weight: bold;
+} */
+
+.title-footer {
+  color: white;
+  font-weight: bold;
+}
+
+.contact-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.input-wrapper {
+  width: 39rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.personal-input {
+  display: flex;
+  flex-direction: row;
+}
+
+.nameinput-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.name-input {
+  margin-top: 0.4rem;
+  width: 12rem;
+  height: 1.9rem;
+}
+
+.emailinput-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+
+.email-input {
+  margin-top: 0.4rem;
+  width: 12rem;
+  height: 1.9rem;
+}
+
+.about-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+
+.about-select {
+  margin-top: 0.4rem;
+  width: 12rem;
+  height: 1.9rem;
+}
+
+.project-input {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-textarea {
+  margin-top: 0.4rem;
+  height: 8rem;
+}
+
+.btn-submit {
+  margin-top: 0.7rem;
+  background-color: #3faf84;
+  border: none;
+  color: white;
+  padding: 12px 32px;
+  text-align: center;
+}
 
 /* CSS untuk Footer */
+.footer-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #07262e;
+  margin-top: 5rem;
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 55rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.footer-section .top-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.bottom-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.newslatter {
+  display: flex;
+  float: left;
+}
+
+.newslatter-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.subscribe-content {
+  display: flex;
+  flex-direction: row;
+  float: left;
+}
+
+.input-subscribe {
+  font-family: inherit;
+  border: 0;
+  border-bottom: 1px solid white;
+  outline: 0;
+  font-size: 0.4 rem;
+  color: white;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+.btn-subscribe {
+  font-family: inherit;
+  border: 0;
+  margin-left: 0.5rem;
+  padding: 0.5rem 0.8rem;
+  width: 7rem;
+  font-weight: bold;
+}
+
+.services {
+  display: flex;
+  margin: 0 5rem 0 7rem;
+  flex-direction: column;
+  float: right;
+}
+
+.text-services {
+  color: white;
+  margin-top: 0.2rem;
+  font-weight: 200;
+}
+
+.sayhi {
+  display: flex;
+  margin-left: 7rem;
+  flex-direction: column;
+}
+
+.text-sayhi-address {
+  color: white;
+  margin-top: 0.2rem;
+  font-weight: 200;
+}
+
+.text-sayhi-email {
+  color: white;
+  margin-top: 0.2rem;
+  font-weight: 100;
+  font-size: 0.7rem;
+}
+
+.copyright {
+  display: inline;
+  width: 12rem;
+}
+
+.text-copyright {
+  width: 18rem;
+  color: white;
+}
+
+.social-media {
+  display: flex;
+  margin-left: 32rem;
+  margin-top: 0.5rem;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-instagram,
+.fa-linkedin,
+.fa-youtube {
+  color: white;
+  background: #07262e;
+  margin-left: 0.5rem;
+  text-decoration: none;
+}
+
+.fa-facebook {
+  margin-left: 0;
+}
