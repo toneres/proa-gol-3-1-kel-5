@@ -52,6 +52,39 @@ body {
 /* CSS untuk Top Wrapper */
 
 /* CSS untuk About Wrapper */
+.about-row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.about-card {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.about-card img {
+  width: 50%;
+}
+
+.about-content h3 {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 70px 0px 30px 70px;
+}
+
+.about-content p {
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0px 0px 20px 70px;
+  color: #595959;
+}
+
+.about-wrapper h2 {
+  font-size: 42px;
+  font-weight: bold;
+}
 
 /* CSS untuk Services Wrapper */
 .services-wrapper {
