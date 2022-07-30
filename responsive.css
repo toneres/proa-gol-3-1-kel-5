@@ -15,12 +15,73 @@ XXL, untuk ukuran layar monitor FullHD >1400px (default)
   .container {
     max-width: 1140px;
   }
+
+  /* Bagian pricing */
+  .desc {
+    margin-left: 40px;
+    font-size: 22px;
+  }
+
+  .inner-txt {
+    margin-left: 0;
+  }
+
+  .inner-txt-1 {
+    padding-left: 20px;
+  }
+
+  .btn-order1,
+  .btn-order2,
+  .btn-order3 {
+    margin-left: 55px;
+  }
+
+  .price-amount {
+    font-size: 22px;
+  }
+
+  /* bagian contact */
+  .contact-section {
+    margin-top: 110px;
+  }
 }
 
 /*Media query untuk layar L dan lebih kecil*/
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
+  }
+
+  /* Bagian pricing */
+
+  .price-amount {
+    font-size: 18px;
+  }
+
+  .desc {
+    font-size: 18px;
+  }
+
+  .inner-txt {
+    font-size: 20px;
+  }
+  .price-desc {
+    font-size: 10px;
+  }
+
+  .btn-order1,
+  .btn-order2,
+  .btn-order3 {
+    margin-left: 25px;
+  }
+
+  .pricing-plan {
+    height: 640px;
+  }
+
+  /* bagian contact */
+  .contact-section {
+    margin-top: 90px;
   }
 }
 
@@ -29,6 +90,135 @@ XXL, untuk ukuran layar monitor FullHD >1400px (default)
   .container {
     max-width: 720px;
   }
+
+  /* Bagian header */
+  .header-menu {
+    display: none;
+  }
+  header {
+    height: 64px;
+  }
+
+  .header-left {
+    float: left;
+    padding: 10px;
+  }
+
+  .logo {
+    height: 42px;
+  }
+
+  .btn-header-member {
+    padding: 10px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  /* Bagian top*/
+  .top-wrapper h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .about-wrapper h2 {
+    text-align: center;
+  }
+
+  .about-card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-card img {
+    width: 80%;
+  }
+
+  .about-content h3 {
+    margin: 30px 10%;
+  }
+
+  .about-content p {
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0px 10% 10px 10%;
+    color: #595959;
+  }
+
+  .about-wrapper {
+    padding: 100px 60px 0 60px;
+  }
+
+  /* Bagian services */
+  .services-flex {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .services-row {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .service-card {
+    width: 50%;
+  }
+
+  /* bagian pricing  */
+  .pricing-wrapper {
+    height: auto;
+    padding-bottom: 30px;
+  }
+
+  .pricing-plan {
+    width: 100%;
+    float: none;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .plan-inherit {
+    width: 100%;
+    margin: 0;
+    padding: 0 5%;
+  }
+
+  .pricing-header {
+    height: 75px;
+  }
+
+  .desc {
+    font-size: 16px;
+  }
+
+  .inner-txt {
+    font-size: 16px;
+  }
+
+  .btn-order1,
+  .btn-order2,
+  .btn-order3 {
+    margin: 20px 10%;
+    width: 80%;
+    text-align: center;
+  }
+
+  .footer-wrapper {
+    width: 100%;
+  }
+
+  .footer-top-wrapper {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .newsletter {
+    width: 100%;
+  }
+
+  .footer-title-address-wrapper {
+    width: 100%;
+  }
 }
 
 /*Media query untuk layar S dan lebih kecil*/
@@ -36,11 +226,88 @@ XXL, untuk ukuran layar monitor FullHD >1400px (default)
   .container {
     max-width: 540px;
   }
+
+  .top-wrapper-overlay {
+    padding: 200px 0 160px 0;
+    background: rgba(0, 0, 0, 0.5);
+    height: inherit;
+    width: 100%;
+  }
+
+  .about-card {
+    margin-bottom: 20px;
+  }
+  .about-card img {
+    width: 100%;
+  }
+
+  .about-content h3 {
+    margin: 20px 0;
+  }
+
+  .about-content p {
+    margin: 0px 0 10px 0;
+  }
+
+  .services-wrapper {
+    padding-top: 80px;
+  }
+
+  .service-card {
+    width: 100%;
+  }
+
+  .service-desc {
+    order: 1;
+  }
+
+  .pricing-wrapper .heading {
+    padding-top: 40px;
+  }
+
+  .contact-section {
+    margin-top: 60px;
+  }
+
+  .input-wrapper {
+    width: 100%;
+  }
+
+  .personal-input {
+    flex-direction: column;
+    row-gap: 10px;
+  }
+
+  .nameinput-wrapper,
+  .emailinput-wrapper,
+  .contact-about-wrapper {
+    margin-left: 0;
+  }
+
+  .about-select,
+  .name-input,
+  .email-input {
+    width: 100%;
+  }
 }
 
 /*Media query untuk layar XS*/
 @media (max-width: 576px) {
   .container {
     max-width: 100%;
+  }
+
+  .footer-title-address-wrapper {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .bottom-wrapper {
+    flex-direction: column;
+    row-gap: 10px;
+  }
+
+  .social-media {
+    justify-content: start;
   }
 }
