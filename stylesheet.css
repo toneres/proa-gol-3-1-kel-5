@@ -37,6 +37,10 @@ img {
 }
 
 /* CSS untuk Dipakai Halaman Umum */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Karla", sans-serif;
 }
@@ -48,8 +52,107 @@ body {
 }
 
 /* CSS untuk Header */
+header {
+  height: 80px;
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.175);
+}
+
+.header-left {
+  float: left;
+  padding: 10px;
+}
+
+.logo {
+  height: 60px;
+}
+
+.header-menu {
+  float: left;
+  padding-left: 20px;
+}
+
+.btn-header {
+  padding: 20px;
+  height: 60px;
+  margin-top: 10px;
+  color: rgba(150, 150, 150);
+  text-decoration: none;
+  transition: all 0.5s;
+  display: inline-block;
+}
+.btn-header:hover {
+  color: black;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  /* Ubah property transition */
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-header-member {
+  background-color: #38b083;
+  padding: 15px;
+  height: 50px;
+  margin-top: 15px;
+  border-radius: 6px;
+  color: white;
+  text-decoration: none;
+  transition: all 0.5s;
+  display: inline-block;
+}
+.btn-header-member:hover {
+  background-color: #198754;
+}
+
+.btn-header-member .fa {
+  color: white;
+  margin-right: 6px;
+}
 
 /* CSS untuk Top Wrapper */
+
+.top-wrapper {
+  background-image: url(./img/top-wrapper.jpg);
+  background-size: cover;
+  color: white;
+}
+
+.top-wrapper-overlay {
+  padding: 270px 0 200px 0;
+  background: rgba(0, 0, 0, 0.5);
+  height: inherit;
+  width: 100%;
+}
+
+.top-wrapper h1 {
+  font-size: 68px;
+  letter-spacing: -2px;
+}
+
+.top-wrapper h1::after {
+  content: "";
+  margin-left: 10px;
+  width: 20px;
+  height: 5px;
+  background: white;
+  display: inline-block;
+  animation: cursor-blink 1s steps(2) infinite;
+}
+
+@keyframes cursor-blink {
+  0% {
+    opacity: 0;
+  }
+}
 
 /* CSS untuk About Wrapper */
 .about-wrapper {
@@ -429,7 +532,7 @@ hr {
   margin-bottom: 2rem;
 }
 
-.footer-section .top-wrapper {
+.footer-top-wrapper {
   display: flex;
   flex-direction: row;
 }
