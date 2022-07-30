@@ -181,10 +181,11 @@ body {
   background-color: white;
   margin: 0 8px;
   height: 700px;
+  transition: all 0.5s;
 }
 .pricing-plan:hover {
-  border: 2px solid gray;
-  box-shadow: 0 0 0 0 26em blue;
+  transform: scale(1.03);
+  transform-origin: 50% 50% 0px;
 }
 .plan-inherit {
   width: 90%;
