@@ -59,6 +59,7 @@ header {
   position: fixed;
   top: 0;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.175);
+  z-index: 100;
 }
 
 .header-left {
@@ -156,7 +157,7 @@ header {
 
 /* CSS untuk About Wrapper */
 .about-wrapper {
-  padding: 60px;
+  padding: 120px 60px 60px 60px;
 }
 
 .about-row {
@@ -268,7 +269,8 @@ header {
 .pricing-wrapper {
   background-image: url(pricing.png);
   background-size: cover;
-  height: 900px;
+  height: 930px;
+  padding-top: 30px;
 }
 .heading {
   text-align: center;
@@ -282,7 +284,7 @@ header {
   width: 32%;
 
   background-color: white;
-  margin: 0 8px;
+  margin: 0 0.5%;
   height: 700px;
   transition: all 0.5s;
 }
@@ -319,6 +321,7 @@ header {
   padding-top: 30px;
   padding-left: 20px;
   padding-bottom: 10px;
+  font-size: 24px;
 }
 .inner-txt li {
   padding-left: 10px;
@@ -426,6 +429,14 @@ header {
   color: black;
 }
 /* CSS untuk Contact Wrapper */
+
+.contact-wrapper h2 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 hr {
   width: 55rem;
   margin-top: 5rem;
@@ -445,7 +456,7 @@ hr {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-top: 2rem;
+  margin-top: 120px;
 }
 
 .input-wrapper {
@@ -542,12 +553,12 @@ hr {
   flex-direction: row;
 }
 
-.newslatter {
+.newsletter {
   display: flex;
   float: left;
 }
 
-.newslatter-content {
+.newsletter-content {
   display: flex;
   flex-direction: column;
 }
